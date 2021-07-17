@@ -22,7 +22,7 @@ i suggest using ethermine's pool. and just block 5555 (ssl)</br></br>
 
 right click on PhoenixMinerBoost and set to run as administrator.</br></br>
 
-right click on your bat file to run as administrator (wont work unless it has admin permissions</br>
+right click on your bat file to run as administrator (wont work unless it has admin permissions)</br>
 
 then wait 1-2 hours for the program to begin the boost.</br>
 
