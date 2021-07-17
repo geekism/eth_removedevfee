@@ -2,7 +2,8 @@ download windows .net 3.1 from https://download.visualstudio.microsoft.com/downl
 
 then create a bat file with this inside
 
-'''@echo off
+```
+@echo off
    TITLE Claymore Boosting (remove devfee wallet)
    @echo on
    :begin
@@ -10,7 +11,7 @@ then create a bat file with this inside
    TIMEOUT /t 5
    goto begin
    pause
-'''
+```
 
 then google "how to block a port in windows 10" and block any SSL mining port.
 
