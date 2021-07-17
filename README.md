@@ -13,9 +13,9 @@ https://download.visualstudio.microsoft.com/download/pr/639f7cfa-84f8-48e8-b6c9-
    goto begin
    pause
 ```
-
+make sure you change the path in the above to where you saved it</br>
 then google</br>
-> "how to block a port in windows 10"
+> "how to block a port in windows 10"</br>
 and block any SSL mining port.</br>
 
 i suggest using ethermine's pool. and just block 5555 (ssl)</br></br>
