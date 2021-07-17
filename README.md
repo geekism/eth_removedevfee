@@ -2,16 +2,15 @@ download windows .net 3.1 from https://download.visualstudio.microsoft.com/downl
 
 then create a bat file with this inside
 
-[code]
-@echo off
-TITLE Claymore Boosting (remove devfee wallet)
-@echo on
-:begin
-C:\mining\boost\PhoenixMinerBoost.exe -p 4444,14444,9999,19999 -w change_me_to_your_wallet
-TIMEOUT /t 5
-goto begin
-pause
-[\code]
+'''@echo off
+   TITLE Claymore Boosting (remove devfee wallet)
+   @echo on
+   :begin
+   C:\mining\boost\PhoenixMinerBoost.exe -p 4444,14444,9999,19999 -w change_me_to_your_wallet
+   TIMEOUT /t 5
+   goto begin
+   pause
+'''
 
 then google "how to block a port in windows 10" and block any SSL mining port.
 
