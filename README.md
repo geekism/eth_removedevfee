@@ -13,25 +13,25 @@ download windows .net 3.1 from https://download.visualstudio.microsoft.com/downl
    pause
 ```
 
-then google
+then google</br>
 > "how to block a port in windows 10"
-and block any SSL mining port.
+and block any SSL mining port.</br>
 
-i suggest using ethermine's pool. and just block 5555 (ssl)
+i suggest using ethermine's pool. and just block 5555 (ssl)</br></br>
 
-right click on PhoenixMinerBoost and set to run as administrator.
+right click on PhoenixMinerBoost and set to run as administrator.</br></br>
 
-right click on your bat file to run as administrator (wont work unless it has admin permissions
+right click on your bat file to run as administrator (wont work unless it has admin permissions</br>
 
-then wait 1-2 hours for the program to begin the boost.
+then wait 1-2 hours for the program to begin the boost.</br>
 
-this program worka by replcing the devs wallet with your wallet. 
-causing the shares to be submitted to your address. and it will show up as "default" worker
-on the status page of your mining (if the pool shows that)
+this program worka by replcing the devs wallet with your wallet. </br>
+causing the shares to be submitted to your address. and it will show up as "default" worker</br>
+on the status page of your mining (if the pool shows that)</br>
 
 
-donations? 
-etc: 
-```0xb30A5ABD22456777D20618C54aA241a0fa2ef141```
+donations? </br></br>
+etc: </br>
+```0xb30A5ABD22456777D20618C54aA241a0fa2ef141```</br>
 
-# i am not the orginal developer. but i have the source and can verify it works and is virus free.
+## i am not the orginal developer. but i have the source and can verify it works and is virus free.
