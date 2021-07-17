@@ -26,7 +26,7 @@ right click on your bat file to run as administrator (wont work unless it has ad
 
 then wait 1-2 hours for the program to begin the boost.</br>
 
-this program worka by replcing the devs wallet with your wallet. </br>
+this program works by replacing the devs wallet with your wallet. </br>
 causing the shares to be submitted to your address. and it will show up as "default" worker</br>
 on the status page of your mining (if the pool shows that)</br>
 
