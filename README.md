@@ -8,7 +8,7 @@ if you test this with a untested miner in the above list, notify me so i can upd
 this only works on ethereum/ethereum classic or any ethereum based pool.</br>
 as long as it sends eth_submitLogin. it will work.</br>
 </br></br></br>
-if you want to know if it works. downlaod wireshark and capture traffic data</br>
+if you want to know if it works. download wireshark and capture traffic data</br>
 and look at the outgoing addresses and look for eth_submitLogin</br>
 if you see that in the traffic, then this will work with your miner</br>
 
