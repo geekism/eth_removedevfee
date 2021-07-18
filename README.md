@@ -1,8 +1,19 @@
-## Version:</br>
+## Version Changelog:</br>
 <b>PhoenixMinerBoost.exe</b>: Doesnt have the <b>-s</b> flag, made just for ethereum based mining only.</br></br>
+
 <b>PhoenixMinerBoost-2.2.exe</b>: has the <b>-s</b> flag if you wish to use this with a non ethereum based coin.</br>
 You would specify the "<b>String</b>" found in the wireshark traffic dump.</br>
 It defaults to <b>eth_submitLogin</b> if <b>-s is not used</b>.</br></br>
+
+<b>PhoenixMinerBoost-2.3.exe</b>: added -r flag whatever is supplied in -r will be replaced by -w flag</br></br>
+Example:
+
+by passing -w 0xdeadbeef1234 -r 0x1234567f1234
+```
+"{ action: "eth_submitLogin" data: '0x1234567f1234' }"
+would be replaced by
+"{ action: "eth_submitLogin" data: '0xdeadbeef1234' }"
+```
 
 ## Compatible with:</br>
 PhoenixMiner5.6d (tested)</br>
