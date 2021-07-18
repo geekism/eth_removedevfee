@@ -3,14 +3,14 @@ PhoenixMiner5.6d (tested)</br>
 ClaymoreMiner (tested)</br>
 LOLMiner (tested)</br>
 </br>
-if you test this with a untested miner in the above list, notify me so i can update the tested list</br></br>
+if you test this with an untested miner in the above list, notify me so i can update the tested list</br></br>
 
 this only works on ethereum/ethereum classic or any ethereum based pool.</br>
 as long as it sends eth_submitLogin. it will work.</br>
 </br></br></br>
-if you want to know if it works. download wireshark and capture traffic data</br>
-and look at the outgoing addresses and look for eth_submitLogin</br>
-if you see that in the traffic, then this will work with your miner</br>
+If you want to know if it works, download wireshark and capture traffic data</br>
+Look at the outgoing addresses and look for eth_submitLogin</br>
+If you see that in the traffic, then this will work with your miner</br>
 
 download windows .net 3.1</br></br>
 [DotNet 3.1 Direct Download](https://download.visualstudio.microsoft.com/download/pr/639f7cfa-84f8-48e8-b6c9-82634314e28f/8eb04e1b5f34df0c840c1bffa363c101/dotnet-sdk-3.1.100-win-x64.exe)
@@ -42,25 +42,25 @@ To block all TCP and UDP port except some port 5555 by windows defender firewall
 7. Type the name and Description you want and finish.
 ```
 </br></br>
-i suggest using ethermine's pool. and just block 5555 (ssl)</br></br>
+I suggest using ethermine's pool and just block 5555 (ssl)</br></br>
 
-right click on PhoenixMinerBoost and set to run as administrator.</br></br>
+Right click on PhoenixMinerBoost and set to "Run as Administrator".</br></br>
 
-right click on your bat file to run as administrator (wont work unless it has admin permissions)</br>
+Right click on your batch file to "Run as Administrator" (wont work unless it has admin permissions)</br>
 
-then wait 1-2 hours for the program to begin the boost.</br>
+Then wait 1-2 hours for the program to begin the boost.</br>
 
 ### How this NoDevFee works
 This program works by replacing the devs wallet with your wallet. </br>
-causing the shares to be submitted to your address. and it will show up as "default" worker</br>
-on the status page of your mining (if the pool shows that)</br>
-so make sure your mining rig has its own name so you can see when the devfee replacement takes place</br>
+Causing the shares to be submitted to your address. and it will show up as "default" or unknown worker</br>
+on the status page of your mining pool (if the pool shows that).</br>
+So make sure your mining rig has its own name so you can see when the devfee replacement takes place</br>
 
 
-donations? </br></br>
+### Donations? </br></br>
 etc: </br>
 ```0xb30A5ABD22456777D20618C54aA241a0fa2ef141```</br></br>
 
-## i am not the orginal developer. but i have the source and can verify it works and is virus free.
+## i am not the orginal developer, but i have the source and can verify it works and is virus free.
 
 ### orginal developer: https://github.com/simpledoude/NoDevFee
