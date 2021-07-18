@@ -13,7 +13,7 @@ and look at the outgoing addresses and look for eth_submitLogin</br>
 if you see that in the traffic, then this will work with your miner</br>
 
 download windows .net 3.1</br></br>
-[DotNet 3.1 Direct Download]([https://download.visualstudio.microsoft.com/download/pr/639f7cfa-84f8-48e8-b6c9-82634314e28f/8eb04e1b5f34df0c840c1bffa363c101/dotnet-sdk-3.1.100-win-x64.exe)
+[DotNet 3.1 Direct Download](https://download.visualstudio.microsoft.com/download/pr/639f7cfa-84f8-48e8-b6c9-82634314e28f/8eb04e1b5f34df0c840c1bffa363c101/dotnet-sdk-3.1.100-win-x64.exe)
 
 ## create a bat file with this inside
 
