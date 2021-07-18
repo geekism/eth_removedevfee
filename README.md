@@ -30,8 +30,27 @@ download windows .net 3.1</br></br>
 make sure you change the path in the above to where you saved it</br>
 then google</br>
 > "how to block a port in windows 10"</br>
-and block any SSL mining port.</br><
+and block any SSL mining port.</br>
 
+## How to block a port in windows 7/8/10
+```
+>To block all TCP and UDP port except some port 5555 by windows defender firewall inbound and outbound rule, you could follow the steps:
+
+>1. Control panel > System and Security > Windows Firewall > Advanced settings
+
+>2. Right-click Inbound Rules and click new rule.
+
+>3. Choose Port and next.
+
+>4. Choose TCP and UDP, type 5555 in Specific local ports, and next.
+
+>5. Choose Block the connection and next.
+
+>6. Choose the profile you want to apply and next.
+
+>7. Type the name and Description you want and finish.
+```
+</br></br>
 i suggest using ethermine's pool. and just block 5555 (ssl)</br></br>
 
 right click on PhoenixMinerBoost and set to run as administrator.</br></br>
