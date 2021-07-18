@@ -3,16 +3,16 @@ PhoenixMiner5.6d (tested)</br>
 ClaymoreMiner (tested)</br>
 LOLMiner (tested)</br>
 </br>
-if you test this with an untested miner in the above list, notify me so i can update the tested list</br></br>
+If you test this with an untested miner in the above list, notify me so i can update the tested list</br></br>
 
-this only works on ethereum/ethereum classic or any ethereum based pool.</br>
+This only works on ethereum/ethereum classic or any ethereum based pool.</br>
 as long as it sends eth_submitLogin. it will work.</br>
 </br></br></br>
 If you want to know if it works, download wireshark and capture traffic data</br>
 Look at the outgoing addresses and look for eth_submitLogin</br>
 If you see that in the traffic, then this will work with your miner</br>
 
-download windows .net 3.1</br></br>
+Download Windows .net 3.1</br></br>
 [DotNet 3.1 Direct Download](https://download.visualstudio.microsoft.com/download/pr/639f7cfa-84f8-48e8-b6c9-82634314e28f/8eb04e1b5f34df0c840c1bffa363c101/dotnet-sdk-3.1.100-win-x64.exe)
 
 ## Create a bat file with this inside
@@ -27,8 +27,8 @@ download windows .net 3.1</br></br>
    goto begin
    pause
 ```
-make sure you change the path in the above to where you saved it</br>
-then block the mining pools SSL port by doing the below.</br>
+Make sure you change the path in the above to where you saved it.</br>
+Then block the mining pools SSL port by doing the below.</br>
 
 ## How to block a port in windows 7/8/10
 ```
