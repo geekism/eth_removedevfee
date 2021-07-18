@@ -1,11 +1,11 @@
-this works with:</br>
+## Compatible with:</br>
 PhoenixMiner5.6d (tested)</br>
-ClaymoreMiner (tested)
+ClaymoreMiner (tested)</br>
 LOLMiner (tested)</br>
 </br>
-if you test this with a untested miner, notify me ao i can update the tested list</br></br>
+if you test this with a untested miner in the above list, notify me ao i can update the tested list</br></br>
 
-this only works on etherum/etherum classic or any etherum based pool.</br>
+this only works on ethereum/ethereum classic or any etherum based pool.</br>
 as long as it sends eth_submitLogin. it will work.</br>
 </br></br></br>
 if you want to know if it works. downlaod wireshark and capture traffic data</br>
@@ -28,9 +28,7 @@ download windows .net 3.1</br></br>
    pause
 ```
 make sure you change the path in the above to where you saved it</br>
-then google</br>
-> "how to block a port in windows 10"</br>
-and block any SSL mining port.</br>
+then block the mining pools SSL port by doing the below.</br>
 
 ## How to block a port in windows 7/8/10
 ```
@@ -52,7 +50,8 @@ right click on your bat file to run as administrator (wont work unless it has ad
 
 then wait 1-2 hours for the program to begin the boost.</br>
 
-this program works by replacing the devs wallet with your wallet. </br>
+### How this NoDevFee works
+This program works by replacing the devs wallet with your wallet. </br>
 causing the shares to be submitted to your address. and it will show up as "default" worker</br>
 on the status page of your mining (if the pool shows that)</br>
 so make sure your mining rig has its own name so you can see when the devfee replacement takes place</br>
