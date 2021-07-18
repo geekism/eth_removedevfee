@@ -3,9 +3,9 @@ PhoenixMiner5.6d (tested)</br>
 ClaymoreMiner (tested)</br>
 LOLMiner (tested)</br>
 </br>
-if you test this with a untested miner in the above list, notify me ao i can update the tested list</br></br>
+if you test this with a untested miner in the above list, notify me so i can update the tested list</br></br>
 
-this only works on ethereum/ethereum classic or any etherum based pool.</br>
+this only works on ethereum/ethereum classic or any ethereum based pool.</br>
 as long as it sends eth_submitLogin. it will work.</br>
 </br></br></br>
 if you want to know if it works. downlaod wireshark and capture traffic data</br>
