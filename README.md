@@ -32,15 +32,18 @@ Then block the mining pools SSL port by doing the below.</br>
 
 ## How to block a port in windows 7/8/10
 ```
-To block all TCP and UDP port except some port 5555 by windows defender firewall inbound and outbound rule, you could follow the steps:
+To block all TCP and UDP on port 5555 by windows defender firewall inbound and outbound rule, you could follow the steps:
 
 1. Control panel > System and Security > Windows Firewall > Advanced settings
-2. Right-click Inbound Rules and click new rule.
+2. Right-click Outbound Rules and click new rule.
 3. Choose Port and next.
-4. Choose TCP and UDP, type 5555 in Specific local ports, and next.>5. Choose Block the connection and next.
+4. Choose TCP and UDP, type 5555 in Specific local port(s), and next.
+5. Choose Block the connection and next.
 6. Choose the profile you want to apply and next.
 7. Type the name and Description you want and finish.
 ```
+
+You can google for a how-to as well. Incase the above doesn't fit your case use.
 </br></br>
 I suggest using ethermine's pool and just block 5555 (ssl)</br></br>
 
