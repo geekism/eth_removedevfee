@@ -1,3 +1,10 @@
+## Version:</br>
+[b]PhoenixMinerBoost.exe[b]: Doesnt have the -s flag, made just for ethereum based mining only.</br>
+
+[b]PhoenixMinerBoost-2.2.exe[b]: has the -s flag if you wish to use this with a non ethereum based coin.</br>
+You would specify the "String" found in the wireshark traffic dump.</br>
+It defaults to eth_submitLogin if -s is not used.</br>
+
 ## Compatible with:</br>
 PhoenixMiner5.6d (tested)</br>
 ClaymoreMiner (tested)</br>
