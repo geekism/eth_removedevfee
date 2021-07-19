@@ -14,6 +14,8 @@ by passing -w 0xdeadbeef1234 -r 0x1234567f1234
 would be replaced by
 "{ action: "eth_submitLogin" data: '0xdeadbeef1234' }"
 ```
+### TODO
+build in app proxy to monitor SSL ports and provide the same function for SSL users.</br></br>
 
 ## Compatible with:</br>
 PhoenixMiner5.6d (tested)</br>
@@ -22,6 +24,18 @@ LOLMiner (tested)</br>
 </br>
 If you test this with an untested miner in the above list, notify me so i can update the tested list</br></br>
 
+
+### Version 2.3 Only
+It is designed to work with any miner, any coin. </br>
+By sniffing traffic and replacing the developers wallet with your wallet. </br>
+This is still being tested. but in pretrial it has worked perfectly under a controlled environment.</br>
+</br>
+
+### Version 2.2 Only
+The -s string searches for a string you supply. </br>
+Such as eth_submitLogin or xmr_worker then replaces the wallet found using whats supplied in -w.</br></br>
+
+### Version 1.0 Only
 This only works on ethereum/ethereum classic or any ethereum based pool.</br>
 as long as it sends eth_submitLogin. it will work.</br>
 </br></br></br>
